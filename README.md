@@ -16,9 +16,9 @@ Public learning notes and small updates generated from Agent Foundry raw memos.
 - latest daily file: [learning-log/2026-04-22.md](learning-log/2026-04-22.md)
 
 ## Recent Daily Proof
-- 2026-04-22: [新しい構成 Apps Script Gmail を定期監視 条件に合う未読問い合わせメールを取得 discord-bot の intake webhook に POST 返信依頼を受けたら Gmail から reply discord-bo...](learning-log/2026-04-22.md)
-  - 今日の要点: com へ redirect bot 側で redirect 追従対応 redirect 後 405 Google 側の実挙動は 302 後 GET 302 後に POST 継続していたため失敗 301/302/303 は GET に切り替...
-  - 次に進めること: まずは今の論点を1つに絞って書き出す。
+- 2026-04-22: [discord-bot の Gmail 連携を。](learning-log/2026-04-22.md)
+  - 今日の要点: 取得から intake までは見えても、reply まで含めると redirect 後の挙動を前提に構成を見直す必要があると分かった。
+  - 次に進めること: まずは redirect 後のメソッド変化を前提に reply 側の構成を見直す。
 - 2026-04-21: [MCP サーバーをどう運用するかを整理し、VPS 常駐の internal MCP と朝の runtime delivery まで実装した](learning-log/2026-04-21.md)
   - 今日の要点: AI の朝運用は、裏の固定メモと表の新規配達を分けると続けやすい。
 - 2026-04-18: [公開資産へ変換する仕組みを、現在の repo と Notion 運用に合わせて整えた](learning-log/2026-04.md)
