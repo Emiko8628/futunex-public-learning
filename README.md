@@ -9,13 +9,16 @@ Public learning notes and small updates generated from Agent Foundry raw memos.
 - what the next step looks like
 
 ## Current Snapshot
-- latest operating day: 2026-04-22
-- public proofs recorded: 4
-- featured public proofs: 3
-- active days recorded: 4
-- latest daily file: [learning-log/2026-04-22.md](learning-log/2026-04-22.md)
+- latest operating day: 2026-04-23
+- public proofs recorded: 5
+- featured public proofs: 4
+- active days recorded: 5
+- latest daily file: [learning-log/2026-04-23.md](learning-log/2026-04-23.md)
 
 ## Recent Daily Proof
+- 2026-04-23: [Agent Foundry で主要 route が all green になったあと。](learning-log/2026-04-23.md)
+  - 今日の要点: all green のあとに unknown_drift / today_os_focus / today_growth_focus を先に見る、という post-green の運用モードが固定された。
+  - 次に進めること: all green になったら queue を空にして終わりにせず、次に前に出す maintenance focus を 2〜3 個だけ正本化する。
 - 2026-04-22: [discord-bot の Gmail 連携を。](learning-log/2026-04-22.md)
   - 今日の要点: 取得から intake までは見えても、reply まで含めると redirect 後の挙動を前提に構成を見直す必要があると分かった。
   - 次に進めること: まずは redirect 後のメソッド変化を前提に reply 側の構成を見直す。
